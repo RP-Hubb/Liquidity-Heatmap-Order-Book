@@ -174,3 +174,4 @@ with placeholder.container():
     st.markdown(f"**Liquidity Depth:** {liquidity_depth:.1f}")
 
 st.info("Use mouse or touch to rotate, zoom, and explore the 3D surface interactively.")
+
