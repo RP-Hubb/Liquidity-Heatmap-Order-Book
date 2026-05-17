@@ -24,8 +24,8 @@ sim_speed = st.sidebar.slider("Simulation Speed (ms)", min_value=50, max_value=1
 imbalance_intensity = st.sidebar.slider("Imbalance Intensity", min_value=0.0, max_value=1.0, value=0.2, step=0.01)
 
 # --- Simulation Parameters ---
-N_PRICE = 60  # Number of price levels
-N_TIME = 80   # Number of time steps
+N_PRICE = 70  # Number of price levels
+N_TIME = 90   # Number of time steps
 PRICE_SPAN = 3.0  # Price range in % around mid
 
 price_grid = np.linspace(mid_price * (1 - PRICE_SPAN/100), mid_price * (1 + PRICE_SPAN/100), N_PRICE)
